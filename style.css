@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.left-container {
+  width: 35vw;
+  height: 100vh;
+  background: url("leaves.jpg");
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.right-container {
+  width: 65vw;
+  background-color: rgb(236, 235, 235);
+  position: relative;
+}
+
+.right-header {
+  min-height: 40vh;
+  width: 60%;
+}
+
+.right-sign-up {
+  min-height: 30vh;
+}
+
+.right-footer {
+  min-height: 30vh;
+}
